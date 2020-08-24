@@ -121,6 +121,7 @@ p {
 figure {
 	margin: 0;
 }
+
 .screen-reader-text {
 	border: 0;
 	clip: rect(1px, 1px, 1px, 1px);
