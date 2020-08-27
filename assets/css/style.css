@@ -7,7 +7,7 @@ Version:  1.0.0
 [Color codes]
     Background: #ffffff
     Body Color : #868686
-    Accent color: #9cc25d
+    Accent color: #000
 
 [Typography]
     Body:   14/24px 'Josefin Sans', sans-serif;
@@ -180,8 +180,8 @@ figure {
 .page-links > span:not(.page-links-title),
 .page-links > a:hover {
 	color: #fff;
-	border-color: #9cc25d;
-	background-color: #9cc25d;
+	border-color: #000;
+	background-color: #000;
 }
 .more-link::after {
 	content: "\f178";
@@ -190,7 +190,7 @@ figure {
 	vertical-align: middle;
 }
 .post-password-form input[type="submit"]:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-error, .furgan-info, .furgan-message {
 	padding: 1em 2em 1em 2em;
@@ -223,7 +223,7 @@ figure {
 	color: #fff;
 }
 .furgan-error .button:hover, .furgan-info .button:hover, .furgan-message .button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-error {
 	border-color: #f44336;
@@ -1029,7 +1029,7 @@ article.sticky .post-title a::before {
 }
 .widget_shopping_cart .furgan-mini-cart__total .furgan-Price-amount {
 	float: right;
-	color: #9cc25d;
+	color: #000;
 	font-size: 18px;
 }
 .widget_shopping_cart .furgan-mini-cart__buttons {
@@ -1052,7 +1052,7 @@ article.sticky .post-title a::before {
 	overflow: hidden;
 }
 .widget_shopping_cart .furgan-mini-cart__buttons .button.checkout {
-	background-color: #9cc25d;
+	background-color: #000;
 	margin-top: 10px;
 }
 .widget_shopping_cart .furgan-mini-cart__buttons .button::before {
@@ -1147,7 +1147,7 @@ article.sticky .post-title a::before {
 #widget-area .widget .select2-container--default .select2-selection--multiple .select2-selection__choice {
 	border: none;
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 	display: inline-block;
 	width: auto;
 }
@@ -1164,7 +1164,7 @@ article.sticky .post-title a::before {
 	margin-top: 20px;
 }
 .furgan-widget-layered-nav-dropdown .furgan-widget-layered-nav-dropdown__submit:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 /*furgan-widget-layered-nav*/
 #widget-area .widget_categories > ul,
@@ -1207,13 +1207,13 @@ article.sticky .post-title a::before {
 .widget_categories .cat-item a:hover::before,
 .widget_product_categories .cat-item a:hover::before,
 .furgan-widget-layered-nav .furgan-widget-layered-nav-list__item a:hover::before {
-	border-color: #9cc25d;
+	border-color: #000;
 }
 .widget_categories .cat-item.current-cat a::before,
 .widget_product_categories .cat-item.current-cat a::before,
 .furgan-widget-layered-nav .furgan-widget-layered-nav-list__item.chosen a::before {
-	background-color: #9cc25d;
-	border-color: #9cc25d;
+	background-color: #000;
+	border-color: #000;
 	content: '\f00c';
 	font-family: 'FontAwesome', sans-serif;
 	font-weight: normal;
@@ -1472,7 +1472,7 @@ a, body .az_custom_heading a {
 a:hover, a:focus, a:active {
 	text-decoration: none;
 	outline: none;
-	color: #9cc25d;
+	color: #000;
 }
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
@@ -1489,7 +1489,7 @@ blockquote, q {
 	padding: 15px 0 15px 20px;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	border-left: 3px solid #9cc25d;
+	border-left: 3px solid #000;
 }
 dt, dd {
 	line-height: 30px;
@@ -1634,7 +1634,7 @@ th, td {
 	visibility: visible;
 }
 .owl-slick .slick-arrow:hover {
-	color: #9cc25d;
+	color: #000;
 }
 .owl-slick .slick-arrow.prev {
 	left: -40px;
@@ -1659,7 +1659,7 @@ th, td {
 	visibility: visible;
 }
 .furgan-products.style-06 .owl-slick .slick-arrow:hover {
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-products.style-06 .owl-slick .slick-arrow.prev {
 	right: 40px;
@@ -1681,7 +1681,7 @@ th, td {
 	width: 30px;
 }
 .furgan-products.style-03 .owl-slick .slick-arrow:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 }
 .furgan-products.style-03 .owl-slick .slick-arrow.prev {
@@ -1723,10 +1723,10 @@ th, td {
 	border-radius: 12px;
 }
 .slick-dots li button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .slick-dots li.slick-active button {
-	background-color: #9cc25d;
+	background-color: #000;
 	width: 30px;
 }
 .dots-light .slick-dots li.slick-active button,
@@ -1789,7 +1789,7 @@ th, td {
 ============================================================================ */
 .header-top {
 	background-color: #f3f3f3;
-	border-top: 3px solid #9cc25d;
+	border-top: 3px solid #000;
 }
 .header-top-inner {
 	display: table;
@@ -1859,7 +1859,7 @@ th, td {
 }
 .header-top-inner .top-bar-menu > .menu-item:hover > a > span,
 .header-top-inner .top-bar-menu > .menu-item:hover > a {
-	color: #9cc25d;
+	color: #000;
 }
 /* DROPDOWN */
 .wpml-menu {
@@ -1992,7 +1992,7 @@ th, td {
 	border: none;
 }
 .wcml-dropdown .wcml-cs-submenu li:hover > a {
-	color: #9cc25d;
+	color: #000;
 }
 .wcml-dropdown li:hover, .wcml-dropdown li:focus {
 	background-color: transparent;
@@ -2049,7 +2049,7 @@ th, td {
 	margin-bottom: 4px;
 }
 .block-menu-bar .menu-bar:hover span {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 @media (max-width: 1024px) {
 	.block-menu-bar {
@@ -2069,7 +2069,7 @@ th, td {
 	position: relative;
 }
 .box-header-nav .main-menu .menu-item:hover > a {
-	color: #9cc25d;
+	color: #000;
 }
 .header.style-04 .box-header-nav .main-menu .menu-item:hover > a {
 	color: #fff;
@@ -2085,7 +2085,7 @@ th, td {
 	vertical-align: middle;
 	position: relative;
 	display: inline-block;
-	color: #9cc25d;
+	color: #000;
 	text-transform: uppercase;
 }
 .box-header-nav .main-menu > .menu-item > a::before {
@@ -2177,7 +2177,7 @@ th, td {
 	color: #868686;
 }
 .box-header-nav .main-menu .menu-item .submenu .menu-item:hover > a {
-	color: #9cc25d;
+	color: #000;
 }
 .box-header-nav .main-menu .toggle-submenu {
 	display: none;
@@ -2193,7 +2193,7 @@ th, td {
 	color: #000;
 }
 .box-header-nav .main-menu .menu-item:hover > .toggle-submenu {
-	color: #9cc25d;
+	color: #000;
 }
 /*horizon menu*/
 /*sup menu*/
@@ -2281,7 +2281,7 @@ th, td {
 	color: #868686;
 }
 .box-header-nav .main-menu > .menu-item.menu-item-right:hover > a {
-	color: #9cc25d;
+	color: #000;
 }
 .box-header-nav .main-menu .menu-item.menu-item-right > a > span {
 	font-size: 24px;
@@ -2356,7 +2356,7 @@ th, td {
 	transition: opacity 0.25s ease 0s;
 }
 .furgan-dropdown ~ .furgan-dropdown-close:hover {
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-dropdown.open .block-search,
 .furgan-dropdown.open ~ .furgan-dropdown-close {
@@ -2424,7 +2424,7 @@ th, td {
 	line-height: 56px;
 }
 .furgan-dropdown .block-search-form .btn-submit:hover {
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-live-search-form {
 	position: relative;
@@ -2438,7 +2438,7 @@ th, td {
 	height: 25px;
 	margin: auto;
 	border: 3px solid #ccc;
-	border-top-color: #9cc25d;
+	border-top-color: #000;
 	border-radius: 50%;
 	-webkit-animation: fa-spin 2s infinite linear;
 	-o-animation: fa-spin 2s infinite linear;
@@ -2459,7 +2459,7 @@ th, td {
 	-moz-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
 	box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
 	z-index: 100;
-	border-top: 2px solid #9cc25d;
+	border-top: 2px solid #000;
 	margin-top: 12px;
 }
 .furgan-live-search-form .not-results-search {
@@ -2509,7 +2509,7 @@ th, td {
 	color: #868686;
 }
 .furgan-live-search-form .product-price ins {
-	color: #9cc25d;
+	color: #000;
 	float: left;
 	margin-right: 5px;
 	text-decoration: none;
@@ -2522,7 +2522,7 @@ th, td {
 	border: none;
 }
 .furgan-live-search-form .keyword-current {
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 	display: inline-block;
 	padding: 0 3px;
@@ -2575,7 +2575,7 @@ th, td {
 	transition: opacity 0.2s linear;
 }
 .chosen-results > .scroll-element .scroll-bar:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .chosen-results:hover > .scroll-element .scroll-bar,
 .chosen-results > .scroll-element.scroll-draggable .scroll-bar {
@@ -2723,10 +2723,10 @@ th, td {
 }
 .category .chosen-container .chosen-results li.highlighted {
 	background: none;
-	color: #9cc25d;
+	color: #000;
 }
 .category .chosen-container .chosen-results li.highlighted::before {
-	color: #9cc25d;
+	color: #000;
 }
 .category .chosen-container-single .chosen-search {
 	display: none;
@@ -2776,7 +2776,7 @@ th, td {
 	text-align: center;
 	padding: 0 3px;
 	border-radius: 50%;
-	background-color: #9cc25d;
+	background-color: #000;
 	font-size: 12px;
 	color: #ffffff;
 }
@@ -2811,7 +2811,7 @@ th, td {
 	-webkit-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
 	box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
-	border-top: 2px solid #9cc25d;
+	border-top: 2px solid #000;
 }
 .block-user:hover .sub-menu {
 	margin-top: 0;
@@ -2861,7 +2861,7 @@ th, td {
 	transition: opacity 0.2s linear;
 }
 .block-minicart .cart_list > .scroll-element .scroll-bar:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .block-minicart .cart_list:hover > .scroll-element .scroll-bar,
 .block-minicart .cart_list > .scroll-element.scroll-draggable .scroll-bar {
@@ -2943,7 +2943,7 @@ th, td {
 	-webkit-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
 	box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
-	border-top: 2px solid #9cc25d;
+	border-top: 2px solid #000;
 }
 .block-minicart .widget_shopping_cart .product_list_widget li.mini_cart_item {
 	padding-left: 18px;
@@ -3087,7 +3087,7 @@ th, td {
 .vertical-wrapper.block-nav-category .block-title {
 	padding: 0 20px;
 	cursor: pointer;
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 	position: relative;
 	max-width: 320px;
@@ -3137,7 +3137,7 @@ th, td {
 	-webkit-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.1);
 	box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.1);
-	border: 2px solid #9cc25d;
+	border: 2px solid #000;
 	border-top: none;
 }
 @media (max-width: 1499px) {
@@ -3225,7 +3225,7 @@ th, td {
 .vertical-menu.default > .menu-item.show-submenu > a::after,
 .vertical-menu.default .menu-item.parent:hover > .toggle-submenu,
 .vertical-menu.default .menu-item.show-submenu > .toggle-submenu {
-	color: #9cc25d;
+	color: #000;
 }
 .vertical-menu.default .submenu {
 	list-style: none;
@@ -3249,7 +3249,7 @@ th, td {
 	position: relative;
 	margin: 0 20px;
 	text-align: center;
-	color: #9cc25d;
+	color: #000;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.1em;
@@ -3507,7 +3507,7 @@ th, td {
 	line-height: 56px;
 	padding: 0 24px;
 	position: relative;
-	background-color: #9cc25d;
+	background-color: #000;
 	z-index: 1;
 	overflow: hidden;
 }
@@ -3533,7 +3533,7 @@ th, td {
 	animation: shine .75s;
 }
 .header.style-04 .header-nav {
-	background-color: #9cc25d;
+	background-color: #000;
 	text-align: center;
 }
 .header.style-04 .box-header-nav .main-menu > .menu-item:first-child {
@@ -3694,7 +3694,7 @@ a.backtotop {
 	height: 50px;
 	line-height: 50px;
 	font-size: 20px;
-	background-color: #9cc25d;
+	background-color: #000;
 	position: fixed;
 	bottom: 65px;
 	right: 25px;
@@ -4010,7 +4010,7 @@ a.backtotop:hover::before {
 	visibility: visible;
 }
 .post-item .slick-arrow:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff !important;
 }
 .post-item .slick-arrow.prev {
@@ -4045,7 +4045,7 @@ a.backtotop:hover::before {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	border-bottom: 2px solid #9cc25d;
+	border-bottom: 2px solid #000;
 	width: 100%;
 }
 .post-thumb {
@@ -4087,7 +4087,7 @@ a.backtotop:hover::before {
 	left: 10px;
 	z-index: 2;
 	display: inline-block;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .datebox span:first-child {
 	display: block;
@@ -4149,7 +4149,7 @@ a.backtotop:hover::before {
 	left: 0;
 	bottom: 0;
 	width: 50px;
-	border-bottom: 2px solid #9cc25d;
+	border-bottom: 2px solid #000;
 }
 .blog-grid .post-meta {
 	overflow: hidden;
@@ -4424,7 +4424,7 @@ a.backtotop:hover::before {
 	display: inline-block;
 }
 .comment-form .form-submit #submit:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-Reviews-title {
 	display: none;
@@ -4499,7 +4499,7 @@ body.single .main-container {
 	content: '';
 	width: 60px;
 	height: 2px;
-	background-color: #9cc25d;
+	background-color: #000;
 	position: absolute;
 	bottom: 0;
 	left: 50%;
@@ -4610,7 +4610,7 @@ body.single-product .furgan-breadcrumb {
 	position: absolute;
 	bottom: -1px;
 	left: 0;
-	border-bottom: 1px solid #9cc25d;
+	border-bottom: 1px solid #000;
 	width: 50px;
 }
 #widget-area .widgettitle a {
@@ -4649,7 +4649,7 @@ body.single-product .furgan-breadcrumb {
 .widget_categories .cat-item.current-cat > a,
 .widget_pages .page_item.current_page_item > a,
 .widget_product_categories .cat-item.current-cat > a {
-	color: #9cc25d;
+	color: #000;
 }
 /*widget_search*/
 #widget-area .widget.widget_search .widgettitle {
@@ -4689,7 +4689,7 @@ body.single-product .furgan-breadcrumb {
 }
 .widget_product_search .furgan-product-search button[type="submit"]:hover,
 .widget_search .search-form button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 /*widget-furgan-socials*/
 .widget-furgan-socials .socials-list {
@@ -4732,7 +4732,7 @@ body.single-product .furgan-breadcrumb {
 	transform: scale(0.3);
 	opacity: 0;
 	visibility: hidden;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .widget-furgan-socials .socials-list li a:hover::before {
 	-webkit-transform: scale(1);
@@ -4768,7 +4768,7 @@ body.single-product .furgan-breadcrumb {
 	line-height: 44px;
 }
 .widget-furgan-mailchimp .newsletter-form-wrap .submit-newsletter {
-	background-color: #9cc25d;
+	background-color: #000;
 	min-width: 125px;
 	height: 39px;
 	line-height: 39px;
@@ -4947,7 +4947,7 @@ body #widget-area .select2-container--default .select2-selection--single {
 #widget-area .widget .select2-container--default .select2-selection--multiple .select2-selection__choice {
 	border: none;
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 #widget-area .widget .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
 	color: #fff;
@@ -4958,7 +4958,7 @@ body #widget-area .select2-container--default .select2-selection--single {
 	height: 45px;
 	line-height: 45px;
 	font-size: 14px;
-	background-color: #9cc25d;
+	background-color: #000;
 	margin-top: 20px;
 }
 .furgan-widget-layered-nav-dropdown .furgan-widget-layered-nav-dropdown__submit:hover {
@@ -4999,7 +4999,7 @@ body #widget-area .select2-container--default .select2-selection--single {
 	font-size: 14px;
 	font-weight: 600;
 	text-transform: uppercase;
-	background-color: #9cc25d;
+	background-color: #000;
 	position: relative;
 	overflow: hidden;
 }
@@ -5049,7 +5049,7 @@ body #widget-area .select2-container--default .select2-selection--single {
 }
 .widget_price_filter .ui-slider-range {
 	height: 5px;
-	background-color: #9cc25d;
+	background-color: #000;
 	position: absolute;
 	top: 0;
 }
@@ -5370,8 +5370,8 @@ ul.products li.product-category a .furgan-loop-category__title mark {
 .grid-view-mode .modes-mode:active,
 .grid-view-mode .modes-mode.active {
 	color: #fff;
-	border-color: #9cc25d;
-	background-color: #9cc25d;
+	border-color: #000;
+	background-color: #000;
 }
 .grid-view-mode .modes-mode .button-inner {
 	font-size: 0;
@@ -5826,7 +5826,7 @@ body.admin-bar #yith-quick-view-modal {
 }
 .onsale {
 	font-size: 13px;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .sold-out {
 	background-color: #b6b6b6;
@@ -5838,7 +5838,7 @@ body.admin-bar #yith-quick-view-modal {
 	border-color: #ecb02f transparent #ecb02f transparent;
 }
 .onsale::before {
-	border-color: #9cc25d transparent #9cc25d transparent;
+	border-color: #000 transparent #000 transparent;
 }
 .cat-list {
 	font-size: 12px;
@@ -5865,14 +5865,14 @@ body.admin-bar #yith-quick-view-modal {
 .price {
 	display: inline-block;
 	font-size: 14px;
-	color: #9cc25d;
+	color: #000;
 }
 .price del {
 	font-size: 14px;
 	color: #8a8a8a;
 }
 .price ins {
-	color: #9cc25d;
+	color: #000;
 	margin-right: 5px;
 	text-decoration: none;
 }
@@ -5996,7 +5996,7 @@ body.admin-bar #yith-quick-view-modal {
 }
 #yith-wcwl-popup-message {
 	margin: 0 !important;
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 	border: none;
 	
@@ -6154,7 +6154,7 @@ body.admin-bar #yith-quick-view-modal {
 	bottom: 2px;
 	border-radius: 9px;
 	display: block;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .countdown-product .furgan-countdown {
 	margin-bottom: 25px;
@@ -6165,9 +6165,9 @@ body.admin-bar #yith-quick-view-modal {
 	min-width: 50px;
 	height: 50px;
 	margin-right: 5px;
-	border: 2px solid #9cc25d;
+	border: 2px solid #000;
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 	padding: 7px 3px 0;
 	text-align: center;
 }
@@ -6216,7 +6216,7 @@ body.admin-bar #yith-quick-view-modal {
 .product-item.style-01 .group-button .compare-button,
 .product-item.style-01 .group-button .yith-wcqv-button {
 	display: block;
-	background-color: #9cc25d;
+	background-color: #000;
 	border-radius: 50%;
 	opacity: 0;
 	visibility: hidden;
@@ -6287,7 +6287,7 @@ body.admin-bar #yith-quick-view-modal {
 	border: 1px solid #F1F1F1;
 }
 .product-item.style-02 .product-inner:hover {
-	border-color: #9cc25d;
+	border-color: #000;
 }
 .product-item.style-02 .product-thumb {
 	overflow: hidden;
@@ -6354,7 +6354,7 @@ body.admin-bar #yith-quick-view-modal {
 	transition: all 0.25s ease 0s;
 	z-index: 10;
 	border-radius: 0 0 8px 8px;
-	border: 1px solid #9cc25d;
+	border: 1px solid #000;
 	border-top: none;
 	background-color: #f8f8f8;
 }
@@ -6378,7 +6378,7 @@ body.admin-bar #yith-quick-view-modal {
 	border: 1px solid #ebebeb;
 }
 .product-item.style-03 .product-inner:hover {
-	border: 1px solid #9cc25d;
+	border: 1px solid #000;
 }
 .product-item.style-03 .product-thumb {
 	float: right;
@@ -6453,7 +6453,7 @@ body.admin-bar #yith-quick-view-modal {
 .product-item.style-04 .group-button .yith-wcqv-button {
 	display: inline-block;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 	border-radius: 50%;
 	opacity: 0;
@@ -6545,7 +6545,7 @@ body.admin-bar #yith-quick-view-modal {
 	-ms-transform: translateX(-60px);
 	-o-transform: translateX(-60px);
 	transform: translateX(-60px);
-	background-color: #9cc25d;
+	background-color: #000;
 	margin-top: 7px;
 	color: #fff;
 	border-radius: 50%;
@@ -6662,7 +6662,7 @@ body.admin-bar #yith-quick-view-modal {
 	font-size: 20px;
 }
 .product-gallery .gallery-dots .slick-arrow:hover {
-	color: #9cc25d;
+	color: #000;
 }
 .product-gallery .gallery-dots img {
 	border: 1px solid #e7e7e7;
@@ -6670,12 +6670,12 @@ body.admin-bar #yith-quick-view-modal {
 	margin: 1px 0;
 }
 .product-gallery .gallery-dots .slick-current img {
-	border-color: #9cc25d;
+	border-color: #000;
 }
 .product-item.style-07 .title {
 	font-size: 32px;
 	font-weight: 700;
-	color: #9cc25d;
+	color: #000;
 	margin-bottom: 5px;
 }
 .product-item.style-07 .onsale {
@@ -6693,7 +6693,7 @@ body.admin-bar #yith-quick-view-modal {
 }
 .product-item.style-07 .price ins {
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 	padding: 4px 10px 2px;
 	border-radius: 20px;
 }
@@ -6808,8 +6808,8 @@ body.admin-bar #yith-quick-view-modal {
 }
 .product-item.list .group-button .add-to-cart:hover {
 	color: #fff;
-	background-color: #9cc25d;
-	border-color: #9cc25d;
+	background-color: #000;
+	border-color: #000;
 }
 .product-item.list .group-button .add-to-cart a:hover {
 	color: #fff;
@@ -7298,7 +7298,7 @@ body.admin-bar #yith-quick-view-modal {
 	width: 42px;
 	line-height: 42px;
 	border-radius: 50%;
-	background-color: #9cc25d;
+	background-color: #000;
 	-webkit-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
 	box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.05);
@@ -7348,7 +7348,7 @@ body.admin-bar #yith-quick-view-modal {
 	border: 1px solid #ebebeb;
 }
 .furgan-product-gallery .flex-control-nav.flex-control-thumbs li img.flex-active {
-	border-color: #9cc25d;
+	border-color: #000;
 }
 .furgan-product-gallery .flex-control-nav.flex-control-thumbs .slick-arrow {
 	height: 20px;
@@ -7359,7 +7359,7 @@ body.admin-bar #yith-quick-view-modal {
 	z-index: 9;
 	width: 100%;
 	border-radius: 3px 3px 0 0;
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 	margin-bottom: 10px;
 	display: inline-block;
@@ -7414,7 +7414,7 @@ body.admin-bar #yith-quick-view-modal {
 	color: #000;
 }
 .stock.in-stock span {
-	color: #9cc25d;
+	color: #000;
 }
 .stock.out-stock span {
 	color: #ecb02f;
@@ -7437,7 +7437,7 @@ body.admin-bar #yith-quick-view-modal {
 	font-style: italic;
 	line-height: 22px;
 	position: relative;
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-product-details__short-description li::before {
 	content: '+';
@@ -7477,7 +7477,7 @@ body.admin-bar #yith-quick-view-modal {
 	letter-spacing: 0.1em;
 }
 .entry-summary form.cart.variations_form .variations .reset_variations:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .entry-summary .cart .single_add_to_cart_button {
 	vertical-align: middle;
@@ -7496,7 +7496,7 @@ body.admin-bar #yith-quick-view-modal {
 	text-transform: uppercase;
 }
 .entry-summary .cart .single_add_to_cart_button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .entry-summary .cart .single_add_to_cart_button::before {
 	font-weight: normal;
@@ -7576,7 +7576,7 @@ div.quantity .btn-number {
 	font-size: 0;
 }
 div.quantity .btn-number:hover {
-	color: #9cc25d;
+	color: #000;
 }
 div.quantity .btn-number.quantity-plus::before {
 	content: "\f0da";
@@ -7613,7 +7613,7 @@ div.quantity .btn-number.quantity-minus::before {
 	margin-right: 5px;
 }
 .entry-summary .yith-wcwl-add-to-wishlist a:hover::before {
-	color: #9cc25d;
+	color: #000;
 }
 .entry-summary .yith-wcwl-add-to-wishlist a:not(:hover) {
 	color: #000;
@@ -7626,7 +7626,7 @@ div.quantity .btn-number.quantity-minus::before {
 	font-size: 16px;
 }
 .entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist:hover::before {
-	color: #9cc25d;
+	color: #000;
 }
 .entry-summary .compare {
 	font-size: 14px;
@@ -7638,7 +7638,7 @@ div.quantity .btn-number.quantity-minus::before {
 	font-weight: normal;
 }
 .entry-summary .compare:hover::before {
-	color: #9cc25d;
+	color: #000;
 }
 .entry-summary .compare:not(:hover) {
 	color: #000;
@@ -7670,7 +7670,7 @@ div.quantity .btn-number.quantity-minus::before {
 	transform: translateY(-50%);
 	left: 0;
 	width: 40px;
-	background: #9cc25d;
+	background: #000;
 	border-radius: 0 10px 10px 0;
 	z-index: 999;
 	padding: 5px 10px;
@@ -7913,11 +7913,11 @@ div.quantity .btn-number.quantity-minus::before {
 .famibt-wrap .total-price-html {
 	font-size: 30px;
 	margin-bottom: 8px;
-	color: #9cc25d;
+	color: #000;
 }
 .famibt-wrap .famibt-products-wrap .famibt-product .famibt-price,
 .famibt-wrap .famibt-item .famibt-price {
-	color: #9cc25d;
+	color: #000;
 }
 .famibt-wrap .btn-primary {
 	background-color: transparent;
@@ -7935,8 +7935,8 @@ div.quantity .btn-number.quantity-minus::before {
 }
 .famibt-wrap .btn-primary:hover {
 	background-color: transparent;
-	color: #9cc25d;
-	border-color: #9cc25d;
+	color: #000;
+	border-color: #000;
 }
 .famibt-wrap .famibt-left-part {
 	padding-right: 15px;
@@ -8009,7 +8009,7 @@ div.quantity .btn-number.quantity-minus::before {
 	color: #8a8a8a;
 }
 .famibt-price ins {
-	color: #9cc25d;
+	color: #000;
 	float: left;
 	margin-right: 5px;
 	text-decoration: none;
@@ -8071,7 +8071,7 @@ div.quantity .btn-number.quantity-minus::before {
 .dreaming-tabs li a::before {
 	content: '';
 	position: absolute;
-	border-bottom: 15px solid #9cc25d;
+	border-bottom: 15px solid #000;
 	width: 100%;
 	bottom: 10px;
 	transition: all 0.5s;
@@ -8195,7 +8195,7 @@ p.stars a:hover ~ a:before, p.stars.selected:not(:hover) a.active ~ a:before {
 	content: '';
 	height: 2px;
 	position: absolute;
-	background-color: #9cc25d;
+	background-color: #000;
 	top: 13px;
 	width: 40px;
 }
@@ -8291,8 +8291,8 @@ p.stars a:hover ~ a:before, p.stars.selected:not(:hover) a.active ~ a:before {
 }
 .categories-product-dreaming .block-title a:hover {
 	color: #fff;
-	background-color: #9cc25d;
-	border-color: #9cc25d;
+	background-color: #000;
+	border-color: #000;
 }
 .categories-product-dreaming .slick-arrow {
 	width: 40px;
@@ -8321,8 +8321,8 @@ p.stars a:hover ~ a:before, p.stars.selected:not(:hover) a.active ~ a:before {
 	right: -20px;
 }
 .categories-product-dreaming .slick-arrow:hover {
-	background-color: #9cc25d;
-	border-color: #9cc25d;
+	background-color: #000;
+	border-color: #000;
 	color: #fff;
 }
 /*recently-reviewed-product*/
@@ -8452,7 +8452,7 @@ body.furgan-cart .return-to-shop a {
 	display: inline-block;
 }
 body.furgan-cart .return-to-shop a:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .cart-collaterals {
 	display: inline-block;
@@ -8522,7 +8522,7 @@ body.furgan-cart .shop_table tr th.product-subtotal {
 	color: #000;
 }
 .shop_table .product-name a:not(.button):hover {
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-cart-form .shop_table {
 	margin-bottom: 0;
@@ -8593,7 +8593,7 @@ body.furgan-cart .shop_table tr th.product-subtotal {
 	border-radius: 0 3px 3px 0;
 }
 .furgan-cart-form .shop_table .actions button.button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-cart-form .shop_table .actions > button.button {
 	float: right;
@@ -8605,7 +8605,7 @@ body.furgan-cart .shop_table tr th.product-subtotal {
 	font-size: 18px;
 	font-weight: 600;
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 	padding: 25px;
 	margin: 0;
 	border-radius: 3px 3px 0 0;
@@ -8644,7 +8644,7 @@ body.furgan-cart .shop_table tr th.product-subtotal {
 }
 .cart_totals .shop_table tr.order-total strong {
 	font-size: 18px;
-	color: #9cc25d;
+	color: #000;
 	font-weight: normal;
 }
 .furgan-shipping-calculator > p {
@@ -8687,7 +8687,7 @@ body.furgan-cart .shop_table tr th.product-subtotal {
 	border-radius: 0 0 3px 3px;
 }
 .furgan-proceed-to-checkout .checkout-button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 body.furgan-cart .no-sidebar .furgan-cart-form {
 	float: left;
@@ -8858,7 +8858,7 @@ body.furgan-cart .no-sidebar .cart-collaterals {
 	color: #000;
 }
 .furgan-form__label-for-checkbox .furgan-form__input-checkbox:checked + span::before {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-form__label-for-checkbox .furgan-form__input-checkbox:checked + span::after {
 	content: "";
@@ -8902,7 +8902,7 @@ body.furgan-cart .no-sidebar .cart-collaterals {
 }
 #payment .input-radio:hover + label::before,
 #payment .input-radio:checked + label::before {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 #payment .input-radio:hover + label::after,
 #payment .input-radio:checked + label::after {
@@ -9045,7 +9045,7 @@ body .select2-container--default .select2-results__option[data-selected="true"] 
 	font-weight: 600;
 }
 .checkout_coupon .button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-checkout-login .furgan-form-login {
 	padding: 35px 25px 10px 25px;
@@ -9175,7 +9175,7 @@ form.furgan-checkout::after {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 	padding: 25px;
 	margin: 0;
 }
@@ -9231,7 +9231,7 @@ form.furgan-checkout::after {
 }
 #order_review .shop_table tfoot tr.order-total td strong {
 	font-size: 20px;
-	color: #9cc25d;
+	color: #000;
 }
 #order_review .shop_table tbody tr:first-child td,
 #order_review .shop_table tbody tr:first-child th,
@@ -9269,7 +9269,7 @@ form.furgan-checkout::after {
 	text-transform: uppercase;
 }
 #place_order:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .wc_payment_method:not(:last-child) {
 	padding-bottom: 20px;
@@ -9372,7 +9372,7 @@ form.furgan-checkout::after {
 	padding: 25px;
 	margin: 0;
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-order .furgan-customer-details {
 	background: #f6f6f6;
@@ -9549,7 +9549,7 @@ body.furgan-account .furgan-notices-wrapper ~ h2::before {
 	height: 84px;
 	line-height: 80px;
 	border-radius: 50%;
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 	vertical-align: middle;
 	text-align: center;
@@ -9599,7 +9599,7 @@ body.furgan-account .furgan-notices-wrapper ~ .furgan-form-login {
 	height: 84px;
 	line-height: 80px;
 	border-radius: 50%;
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 	vertical-align: middle;
 	text-align: center;
@@ -9640,7 +9640,7 @@ form.register .button {
 }
 form.furgan-form-login .button:hover,
 form.register .button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 form.furgan-form-login .furgan-form__label {
 	float: right;
@@ -9690,7 +9690,7 @@ form.furgan-form-login .lost_password a::before {
 	border-top: 1px solid #ebebeb;
 }
 .furgan-MyAccount-navigation > ul li.is-active a {
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-MyAccount-content .form-row label {
 	display: block;
@@ -9715,7 +9715,7 @@ form.furgan-form-login .lost_password a::before {
 	background-color: #1b1b1b;
 }
 .furgan-MyAccount-content fieldset ~ p .furgan-Button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-MyAccount-content .form-row input {
 	width: 100%;
@@ -9784,7 +9784,7 @@ form.furgan-form-login .lost_password a::before {
 	min-width: 150px;
 }
 .furgan-ResetPassword .form-row .furgan-Button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-ResetPassword .form-row {
 	float: none;
@@ -9910,7 +9910,7 @@ form.furgan-form-login .lost_password a::before {
 	margin-bottom: 0;
 }
 .furgan table.wishlist_table td.product-add-to-cart a:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan table.wishlist_table tfoot td {
 	padding: 0;
@@ -9992,7 +9992,7 @@ form.furgan-form-login .lost_password a::before {
 	font-size: 14px;
 }
 .track_order .button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 /* ==========================================================================
 8.6 PAGE 404
@@ -10030,7 +10030,7 @@ body.error404 .header {
 	border-radius: 0;
 }
 .main-container.error-404 .button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 @media (max-width: 1199px) {
 	.page-title {
@@ -10071,7 +10071,7 @@ body.error404 .header {
 	opacity: 1;
 }
 #popup-newsletter button.close:hover {
-	color: #9cc25d;
+	color: #000;
 }
 #popup-newsletter button.close::before,
 #popup-newsletter button.close::after {
@@ -10141,7 +10141,7 @@ body.error404 .header {
 	font-weight: 600;
 }
 #popup-newsletter .newsletter-form-wrap .submit-newsletter:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 #popup-newsletter .checkbox {
 	text-align: right;
@@ -10306,7 +10306,7 @@ body.error404 .header {
 .furgan-banner.style-01 .banner-info {
 	padding: 0 15px;
 	border: 1px solid transparent;
-	background-color: #9cc25d;
+	background-color: #000;
 	min-width: 100px;
 	text-align: center;
 }
@@ -10356,7 +10356,7 @@ body.error404 .header {
 	font-size: 16px;
 	letter-spacing: 0.6em;
 	display: inline-block;
-	color: #9cc25d;
+	color: #000;
 	text-transform: uppercase;
 	white-space: nowrap;
 	padding-left: 15px;
@@ -10367,7 +10367,7 @@ body.error404 .header {
 	letter-spacing: 0.01em;
 	margin-bottom: 15px;
 	position: relative;
-	color: #9cc25d;
+	color: #000;
 	padding-left: 12px;
 }
 .furgan-banner.style-02 .title::before {
@@ -10411,10 +10411,10 @@ body.error404 .header {
 	margin-bottom: 15px;
 	margin-left: -30px;
 	display: inline-block;
-	border-bottom: 1px solid #9cc25d;
+	border-bottom: 1px solid #000;
 }
 .furgan-banner.style-03 .title a {
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-banner.style-03 .cate {
 	font-size: 30px;
@@ -10443,7 +10443,7 @@ body.error404 .header {
 	line-height: 1;
 	font-weight: 700;
 	display: inline-block;
-	color: #9cc25d;
+	color: #000;
 	text-transform: uppercase;
 }
 .furgan-banner.style-04 .subtitle {
@@ -10500,7 +10500,7 @@ body.error404 .header {
 	display: inline-block;
 	text-align: center;
 	font-size: 16px;
-	color: #9cc25d;
+	color: #000;
 	padding: 0 30px 0 5px;
 	margin-right: -30px;
 }
@@ -10528,8 +10528,8 @@ body.error404 .header {
 	color: #fff;
 }
 .furgan-banner.style-05 .button:hover {
-	background-color: #9cc25d;
-	border-color: #9cc25d;
+	background-color: #000;
+	border-color: #000;
 }
 /*.furgan-banner.style-06 */
 .furgan-banner.style-06 .banner-info {
@@ -10545,7 +10545,7 @@ body.error404 .header {
 	font-size: 32px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #9cc25d;
+	color: #000;
 	margin-bottom: 0;
 }
 .furgan-banner.style-06 .cate {
@@ -10561,7 +10561,7 @@ body.error404 .header {
 	vertical-align: middle;
 	padding: 0 5px 0 30px;
 	font-size: 16px;
-	color: #9cc25d;
+	color: #000;
 	margin-left: -30px;
 	margin-bottom: 10px;
 }
@@ -10592,7 +10592,7 @@ body.error404 .header {
 	font-size: 16px;
 	letter-spacing: 0.6em;
 	display: inline-block;
-	color: #9cc25d;
+	color: #000;
 	text-transform: uppercase;
 	white-space: nowrap;
 	margin-bottom: 5px;
@@ -10601,7 +10601,7 @@ body.error404 .header {
 	font-size: 54px;
 	font-weight: 700;
 	line-height: 1;
-	color: #9cc25d;
+	color: #000;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	padding-bottom: 15px;
@@ -10672,7 +10672,7 @@ body.error404 .header {
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 0.1em;
-	color: #9cc25d;
+	color: #000;
 	margin-bottom: 20px;
 }
 .furgan-banner.style-09 .button,
@@ -10719,7 +10719,7 @@ body.error404 .header {
 	font-size: 42px;
 	font-weight: 700;
 	margin-bottom: 5px;
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-banner.style-11 .subtitle {
 	margin-bottom: 25px;
@@ -10751,7 +10751,7 @@ body.error404 .header {
 	font-size: 30px;
 	font-weight: 700;
 	margin-bottom: 0;
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-banner.style-12 .cate {
 	font-size: 16px;
@@ -10766,7 +10766,7 @@ body.error404 .header {
 .furgan-banner.style-12 .button {
 	font-size: 16px;
 	font-weight: 600;
-	color: #9cc25d;
+	color: #000;
 	text-transform: capitalize;
 	display: inline-block;
 	position: relative;
@@ -10826,7 +10826,7 @@ body.error404 .header {
 	-moz-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
 	box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 	display: block;
 }
 /*effect banner*/
@@ -11258,7 +11258,7 @@ body.error404 .header {
 	margin-bottom: 0;
 	letter-spacing: 0.05em;
 	line-height: 54px;
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 	position: relative;
 	overflow: hidden;
@@ -11346,7 +11346,7 @@ body.error404 .header {
 	content: '';
 	height: 2px;
 	position: absolute;
-	background-color: #9cc25d;
+	background-color: #000;
 	top: 13px;
 	width: 40px;
 }
@@ -11368,7 +11368,7 @@ body.error404 .header {
 	font-size: 80px;
 	line-height: 80px;
 	margin-bottom: 15px;
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-heading.style-02 .title {
 	font-size: 34px;
@@ -11427,7 +11427,7 @@ body.error404 .header {
 	border-radius: 8px;
 }
 .furgan-iconbox.style-01 .iconbox-inner:hover {
-	border-color: #9cc25d;
+	border-color: #000;
 }
 .furgan-iconbox.style-01 .icon {
 	display: table-cell;
@@ -11466,7 +11466,7 @@ body.error404 .header {
 	font-size: 50px;
 	line-height: 50px;
 	padding-bottom: 10px;
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-iconbox.style-02 .iconbox-inner .icon span {
 	display: inline-block;
@@ -11494,14 +11494,14 @@ body.error404 .header {
 	border-radius: 0;
 }
 .furgan-iconbox.style-03 .iconbox-inner:hover {
-	border-color: #9cc25d;
+	border-color: #000;
 }
 .furgan-iconbox.style-03 .icon {
 	display: table-cell;
 	vertical-align: middle;
 	font-size: 50px;
 	width: 80px;
-	color: #9cc25d;
+	color: #000;
 	position: relative;
 }
 .furgan-iconbox.style-03 .title {
@@ -11639,7 +11639,7 @@ body.error404 .header {
 .furgan-listitem.style-02 .title::before {
 	content: '';
 	position: absolute;
-	border-left: 2px solid #9cc25d;
+	border-left: 2px solid #000;
 	top: -2px;
 	height: 100%;
 	left: 0;
@@ -11695,7 +11695,7 @@ footer .furgan-listitem.style-04 .title {
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
 	width: 40px;
-	border-bottom: 2px solid #9cc25d;
+	border-bottom: 2px solid #000;
 }
 .furgan-listitem.style-04 li {
 	line-height: 34px;
@@ -11704,7 +11704,7 @@ footer .furgan-listitem.style-04 li {
 	margin-bottom: 5px;
 }
 .furgan-listitem.style-04 li a::before {
-	background-color: #9cc25d;
+	background-color: #000;
 	bottom: 0;
 	content: "";
 	height: 1px;
@@ -11760,7 +11760,7 @@ footer .furgan-listitem.style-04 li {
 	margin-top: 10px;
 }
 .wpcf7-form .wpcf7-submit:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-google-maps .coinpo-map-info {
 	padding: 0 !important;
@@ -11842,7 +11842,7 @@ footer .furgan-listitem.style-04 li {
 	background-color: #fff;
 }
 .furgan-team .list-social a:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 	color: #fff;
 }
 .furgan-team .name {
@@ -11863,7 +11863,7 @@ footer .furgan-listitem.style-04 li {
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-	border-bottom: 2px solid #9cc25d;
+	border-bottom: 2px solid #000;
 	width: 50px;
 }
 .furgan-team .name a:not(:hover) {
@@ -11954,7 +11954,7 @@ footer .furgan-listitem.style-04 li {
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 0.2em;
-	color: #9cc25d;
+	color: #000;
 	margin-bottom: 5px;
 }
 .furgan-newsletter.style-01 .subtitle {
@@ -11997,7 +11997,7 @@ footer .furgan-listitem.style-04 li {
 	letter-spacing: 0.1em;
 }
 .furgan-newsletter.style-01 .submit-newsletter::before {
-	background: #9cc25d;
+	background: #000;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -12104,7 +12104,7 @@ footer .furgan-listitem.style-04 li {
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 0.2em;
-	color: #9cc25d;
+	color: #000;
 	margin-bottom: 5px;
 }
 .furgan-newsletter.style-03 .subtitle {
@@ -12171,7 +12171,7 @@ footer .furgan-listitem.style-04 li {
 .furgan-newsletter.style-04 .title::before {
 	content: '';
 	position: absolute;
-	border-left: 2px solid #9cc25d;
+	border-left: 2px solid #000;
 	top: -2px;
 	height: 100%;
 	left: 0;
@@ -12383,7 +12383,7 @@ footer .furgan-listitem.style-04 li {
 	position: relative;
 	margin-bottom: 30px;
 	margin-top: 0;
-	border-left: 2px solid #9cc25d;
+	border-left: 2px solid #000;
 }
 .furgan-popupvideo .button {
 	display: inline-block;
@@ -12400,7 +12400,7 @@ footer .furgan-listitem.style-04 li {
 	margin-top: 30px;
 }
 .furgan-popupvideo .button:hover {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-popupvideo .icon {
 	float: left;
@@ -12453,7 +12453,7 @@ footer .furgan-listitem.style-04 li {
 	display: block;
 	border-width: 9px 0 9px 12px;
 	border-style: solid;
-	border-color: transparent transparent transparent #9cc25d;
+	border-color: transparent transparent transparent #000;
 }
 .videobox_animation {
 	-webkit-animation-play-state: running;
@@ -12628,7 +12628,7 @@ ul.products {
 	left: 0;
 	top: 0;
 	height: 20px;
-	border-left: 2px solid #9cc25d;
+	border-left: 2px solid #000;
 }
 .shop-all {
 	margin-top: 20px;
@@ -12656,7 +12656,7 @@ ul.products {
 	opacity: 0.6;
 	bottom: 0;
 	height: 25px;
-	background-color: #9cc25d;
+	background-color: #000;
 	z-index: -1;
 	-webkit-transition: all 0.25s ease 0s;
 	-moz-transition: all 0.25s ease 0s;
@@ -12702,7 +12702,7 @@ ul.products {
 	top: 5px;
 	left: 0;
 	width: 35px;
-	border-bottom: 2px solid #9cc25d;
+	border-bottom: 2px solid #000;
 }
 .furgan-socials.style-01 .socials-list li {
 	display: inline-block;
@@ -12736,7 +12736,7 @@ ul.products {
 	-moz-transition: top 0.25s ease 0s;
 	-o-transition: top 0.25s ease 0s;
 	transition: top 0.25s ease 0s;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-socials.style-01 .socials-list li a:hover::before {
 	top: -1px;
@@ -12760,7 +12760,7 @@ ul.products {
 	bottom: 0;
 	left: 0;
 	width: 40px;
-	border-bottom: 2px solid #9cc25d;
+	border-bottom: 2px solid #000;
 }
 .furgan-socials.style-02 .socials-list li {
 	display: inline-block;
@@ -12800,7 +12800,7 @@ ul.products {
 	transform: scale(0.3);
 	opacity: 0;
 	visibility: hidden;
-	background-color: #9cc25d;
+	background-color: #000;
 	border-radius: 50%;
 }
 .furgan-socials.style-02 .socials-list li a:hover {
@@ -12918,7 +12918,7 @@ ul.products {
 .furgan-tabs.style-01 .tab-head .tab-link li a::before {
 	content: '';
 	position: absolute;
-	border-bottom: 15px solid #9cc25d;
+	border-bottom: 15px solid #000;
 	width: 100%;
 	bottom: 10px;
 	transition: all 0.5s;
@@ -12935,7 +12935,7 @@ ul.products {
 }
 .furgan-tabs.style-01 .tab-link li a:hover::before,
 .furgan-tabs.style-01 .tab-link li.active a::before {
-	border-color: #9cc25d;
+	border-color: #000;
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
@@ -12976,7 +12976,7 @@ ul.products {
 	content: '\f10d';
 	font-family: 'FontAwesome', sans-serif;
 	font-size: 32px;
-	color: #9cc25d;
+	color: #000;
 	background: #fff;
 	border-radius: 50%;
 	width: 60px;
@@ -13033,7 +13033,7 @@ ul.products {
 	content: '\f10d';
 	font-family: 'FontAwesome', sans-serif;
 	font-size: 32px;
-	color: #9cc25d;
+	color: #000;
 	background: #fff;
 	border-radius: 50%;
 	width: 60px;
@@ -13048,7 +13048,7 @@ ul.products {
 }
 .furgan-testimonial.style-02 .thumb img {
 	border-radius: 50%;
-	border: 3px solid #9cc25d;
+	border: 3px solid #000;
 }
 .furgan-testimonial.style-02 .intro {
 	display: inline-block;
@@ -13127,13 +13127,13 @@ ul.products {
 	margin: 0;
 	padding: 15px 15px 15px 28px;
 	text-transform: uppercase;
-	background-color: #9cc25d;
+	background-color: #000;
 	
 }
 .furgan-verticalmenu.block-nav-category .block-content {
 	background-color: #fff;
 	text-align: left;
-	border: 3px solid #9cc25d;
+	border: 3px solid #000;
 	border-top: none;
 	
 }
@@ -13180,7 +13180,7 @@ body.wpb-js-composer .az_tta-style-classic .az_tta-panel .az_tta-panel-title > a
 }
 body.wpb-js-composer .az_tta-style-classic .az_tta-panel.az_active .az_tta-panel-title > a {
 	color: #fff !important;
-	background-color: #9cc25d !important;
+	background-color: #000 !important;
 }
 body.wpb-js-composer .az_tta.az_tta-accordion .az_tta-controls-icon-position-right .az_tta-controls-icon {
 	right: 20px !important;
@@ -13313,7 +13313,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #9cc25d;
+	background-color: #000;
 	position: relative;
 	overflow: hidden;
 	padding: 0 15px;
@@ -13345,7 +13345,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	animation: shine .75s;
 }
 .furgan-pricing.featured .pricing-inner {
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .furgan-pricing.featured .title {
 	color: #fff;
@@ -13501,7 +13501,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .slide-home-01 .slide-wrap:nth-child(1) .slide-info h1 {
 	font-size: 60px;
 	font-weight: 700;
-	color: #9cc25d;
+	color: #000;
 	margin: 0;
 }
 .slide-home-01 .slide-wrap:nth-child(1) .slide-info h2 {
@@ -13541,7 +13541,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	margin: 0;
 }
 .slide-home-01 .slide-wrap:nth-child(2) .slide-info h1 span {
-	color: #9cc25d;
+	color: #000;
 }
 .slide-home-01 .slide-wrap:nth-child(2) .slide-info h2 {
 	font-size: 60px;
@@ -13586,7 +13586,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .slide-home-01 .slide-wrap:nth-child(3) .slide-info h2 {
 	font-size: 45px;
 	font-weight: 700;
-	color: #9cc25d;
+	color: #000;
 	letter-spacing: 2px;
 	margin: 0 0 20px 0;
 }
@@ -13621,7 +13621,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .slide-home-02 .slide-wrap:nth-child(1) .slide-info h1 {
 	font-size: 120px;
 	font-weight: 700;
-	color: #9cc25d;
+	color: #000;
 	margin: 0 0 20px 0;
 }
 .slide-home-02 .slide-wrap:nth-child(1) .slide-info h1 > span {
@@ -13694,7 +13694,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .slide-home-02 .slide-wrap:nth-child(2) .slide-info h1 {
 	font-size: 100px;
 	font-weight: 700;
-	color: #9cc25d;
+	color: #000;
 	margin: 0;
 	display: table;
 	position: relative;
@@ -13714,7 +13714,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	line-height: 34px;
 	height: 29px;
 	font-weight: 700;
-	color: #9cc25d;
+	color: #000;
 	letter-spacing: 13px;
 	text-transform: uppercase;
 	padding-left: 10px;
@@ -13752,7 +13752,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .slide-home-02 .slide-wrap:nth-child(3) .slide-info h1 {
 	font-size: 90px;
 	font-weight: 700;
-	color: #9cc25d;
+	color: #000;
 	margin: 0 0 10px 0;
 }
 .slide-home-02 .slide-wrap:nth-child(3) .slide-info h2 {
@@ -13762,7 +13762,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	text-transform: capitalize;
 }
 .slide-home-02 .slide-wrap:nth-child(3) .slide-info h2 span {
-	color: #9cc25d;
+	color: #000;
 	font-size: 60px;
 }
 .slide-home-02 .slide-wrap:nth-child(3) .slide-info a {
@@ -13798,7 +13798,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .slide-home-03 .slide-wrap .slide-info h1 {
 	font-size: 72px;
 	font-weight: 700;
-	color: #9cc25d;
+	color: #000;
 	margin: 0;
 }
 .slide-home-03 .slide-wrap .slide-info h5 {
@@ -13815,7 +13815,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	margin: 0 0 30px 0;
 }
 .slide-home-03 .slide-wrap .slide-info h2 span {
-	color: #9cc25d;
+	color: #000;
 }
 .slide-home-03 .slide-wrap .slide-info a {
 	display: inline-block;
@@ -13842,7 +13842,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	font-size: 60px;
 	font-weight: 700;
 	letter-spacing: -4px;
-	color: #9cc25d;
+	color: #000;
 	margin: 0 0 10px 0;
 }
 .slide-home-04 .slide-wrap .slide-info h5 {
@@ -13858,7 +13858,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	margin: 0 0 40px 0;
 }
 .slide-home-04 .slide-wrap .slide-info h2 span {
-	color: #9cc25d;
+	color: #000;
 	font-size: 60px;
 }
 .slide-home-04 .slide-wrap .slide-info a {
@@ -13897,7 +13897,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	text-transform: uppercase;
 }
 .slide-home-06 .slide-wrap .slide-info h5 span {
-	color: #9cc25d;
+	color: #000;
 }
 .slide-home-06 .slide-wrap .slide-info h1 {
 	font-size: 60px;
@@ -13907,7 +13907,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	text-transform: capitalize;
 }
 .slide-home-06 .slide-wrap .slide-info h1 span {
-	color: #9cc25d;
+	color: #000;
 }
 .slide-home-06 .slide-wrap .slide-info h2 {
 	font-size: 45px;
@@ -13917,7 +13917,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	letter-spacing: -4px;
 }
 .slide-home-06 .slide-wrap .slide-info h2 span {
-	color: #9cc25d;
+	color: #000;
 }
 .slide-home-06 .slide-wrap .slide-info a {
 	display: inline-block;
@@ -14460,7 +14460,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .section-015 {
 	padding-top: 60px;
 	padding-bottom: 50px;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .section-015 .logo-footer {
 	margin-bottom: 16px;
@@ -14578,7 +14578,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .section-028 {
 	padding-top: 65px;
 	padding-bottom: 65px;
-	background-color: #9cc25d;
+	background-color: #000;
 }
 .section-0281 {
 	padding-top: 65px;
@@ -15473,7 +15473,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 .furgan-mapper .furgan-pin .furgan-popup-header .close-modal:hover,
 .furgan-mapper .furgan-pin .furgan-popup-header h2 a:hover,
 .furgan-mapper.dark .furgan-pin .furgan-popup-header h2 a:hover {
-	color: #9cc25d;
+	color: #000;
 }
 .furgan-mapper.dark .furgan-pin .furgan-popup-header,
 .furgan-mapper.dark .furgan-pin .furgan-popup-footer,
@@ -15642,8 +15642,8 @@ body .az_toggle_default .az_toggle_content p:last-child {
 	text-transform: none;
 }
 .furgan-mapper .furgan-pin .furgan-popup-footer a:hover {
-	background: #9cc25d;
-	border-color: #9cc25d;
+	background: #000;
+	border-color: #000;
 	color: #fff;
 }
 .furgan-mapper .furgan-pin .furgan-popup-footer a i {
